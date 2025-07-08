@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import Card from "../components/Card";
-import { Globe } from "../components/globe";
+import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
-import { Frameworks } from "../components/FrameWorks";
+import { Frameworks } from "../components/Frameworks";
 
 const About = () => {
   const grid2Container = useRef();
@@ -19,7 +19,8 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I am Karnati Harsha Vardhan</p>
             <p className="subtext">
-              A dedicated developer skilled in both Game Development and Full Stack Web Development, driven by creativity and performance.
+              A dedicated developer skilled in both Game Development and Full
+              Stack Web Development, driven by creativity and performance.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -80,7 +81,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I am based in India and open to both on-site opportunities within India and remote work worldwide.
+              I am based in India and open to both on-site opportunities within
+              India and remote work worldwide.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -101,7 +103,11 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Tech Stack</p>
             <p className="subtext">
-              I specialize in Full Stack Web Development and Game Development using modern tools like Laravel, MERN Stack, and Unity. My skillset includes C++, C#, Python, PHP, and JavaScript, enabling me to build immersive games, responsive web applications, and scalable backend systems.
+              I specialize in Full Stack Web Development and Game Development
+              using modern tools like Laravel, MERN Stack, and Unity. My
+              skillset includes C++, C#, Python, PHP, and JavaScript, enabling
+              me to build immersive games, responsive web applications, and
+              scalable backend systems.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
